@@ -503,7 +503,7 @@ El sistema de control domótica es realizado mediante 3 iteraciones los cuales s
 	\end{itemize}
 	\begin{table}[ht]
 			\begin{center} % tabla centrada en el texto
-				\begin{tabular} {||l | c | l||}
+				\begin{tabular} {||l | c | p{8cm}||}
 					\hline 
 					\hline
 					\multicolumn{3}{|c|}{Iteracion I: Hadware}\\
@@ -798,9 +798,9 @@ Para la realización de esta iteración se vio necesario seguir las siguientes a
     	 % https://www.youtube.com/watch?v=ldU2mEWAeh4
 %			\end{center}
 %		\end{table}
-	\begin{table}[ht]
+	\begin{table}[H]
 			\begin{center} % tabla centrada en el texto
-				\begin{tabular} {||l | c | l||}
+				\begin{tabular} {||l | c | p{8cm}||}
 					\hline 
 					\hline
 					\multicolumn{3}{|c|}{Iteracion II: Servidor}\\
@@ -830,7 +830,7 @@ Para la realización de esta iteración se vio necesario seguir las siguientes a
 		\end{table}
 		\subsection{Diseño}
 		La parte del sistema de los sensores recolecta toda la información necesaria y los envía por comunicación serial protocolo rc3220 hacia el servidor  de node. El cual recolecta esa información y  actualiza todos los datos de los sensores y los muestras a todos  los usuarios conectados mediante el modulo socket.io, este último es para aplicaciones en tiempo real, la cual hace posible que cada cambio realizado por un usuario sea visible al  mismo tiempo por otros que están conectados al mismo tiempo o ver los cambios  al ingresar al sistema. Para que el sistema de los sensores tenga mayor certeza en los tiempos es necesario que se encuentren en una  misma red local tanto el servidor como el sistema de sensores.
-		\begin{figure}[ht]
+		\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.9]{imagenes/arquitectura.png}
 		\caption{Diseño del Esquema de Comunicación Entre los Módulos.}
