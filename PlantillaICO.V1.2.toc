@@ -1,0 +1,67 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}INTRODUCCI\IeC {\'O}N}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}An\IeC {\'a}lisis del problema}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}\IeC {\'A}rbol de problema}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Descripci\IeC {\'o}n del Problema}{2}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Propuesta de soluci\IeC {\'o}n}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}\IeC {\'A}rbol de medios y fines}{3}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}Objetivo general}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Objetivos espec\IeC {\'\i }ficos}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Justificaci\IeC {\'o}n}{4}{section.1.6}
+\contentsline {section}{\numberline {1.7}Alcance}{4}{section.1.7}
+\contentsline {chapter}{\numberline {2}DOM\IeC {\'O}TICA}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aspectos principales}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}En el \IeC {\'a}mbito del ahorro energ\IeC {\'e}tico}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}En el \IeC {\'a}mbito del nivel de confort}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}En el \IeC {\'a}mbito de la protecci\IeC {\'o}n patrimonial (seguridad)}{6}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}En el \IeC {\'a}mbito de las comunicaciones}{7}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Estructura de una Instalaci\IeC {\'o}n Dom\IeC {\'o}tica}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Actuaci\IeC {\'o}n los Sistemas de Dom\IeC {\'o}tica}{8}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Arquitectura de un Sistema de Dom\IeC {\'o}tica }{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Medios de Transmisi\IeC {\'o}n / Bus}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Sistemas Dom\IeC {\'o}ticos}{11}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1} Los Protocolos de Dom\IeC {\'o}tica}{12}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Tecnolog\IeC {\'\i }as y est\IeC {\'a}ndares}{13}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Funcionamiento De Un Sistema Dom\IeC {\'o}tico}{13}{subsection.2.6.3}
+\contentsline {chapter}{\numberline {3}ARDUINO Y NODEJS}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Programar un Arduino}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}NodeJS}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Gestor De Paquetes }{16}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Marcos de Desarrollo}{17}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Componentes para comunicaci\IeC {\'o}n en tiempo real}{17}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Comunicaci\IeC {\'o}n serial}{17}{section.3.4}
+\contentsline {chapter}{\numberline {4}VIVIENDA UNIFAMILIAR}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Familia}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Vivienda y Hogar}{22}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Definici\IeC {\'o}n}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Tipos de viviendas}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Integrantes de una Vivienda Unifamiliar}{23}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Roles de los Integrantes}{24}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Recursos de una vivienda}{24}{section.4.5}
+\contentsline {chapter}{\numberline {5}DESARROLLO DEL TRABAJO}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n }{26}{section.5.1}
+\contentsline {section}{\numberline {5.2} Proceso de desarrollo de la metodolog\IeC {\'\i }a}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sensores y Armado del Prototipo}{27}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}An\IeC {\'a}lisis}{27}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Dise\IeC {\~n}o}{29}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Codificaci\IeC {\'o}n}{31}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Pruebas}{33}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Montar servidor NodeJS y Establecer Comunicaciones}{33}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}An\IeC {\'a}lisis}{34}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Dise\IeC {\~n}o}{34}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Codificaci\IeC {\'o}n}{35}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Resultados.}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ejemplo de titulo 2.}{38}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Ejemplo de titulo 3.}{38}{subsection.6.1.1}
+\contentsline {subsubsection}{Ejemplo de titulo 4 (no numerado).}{38}{subsection.6.1.1}
+\contentsline {paragraph}{Ejemplo de t\IeC {\'\i }tulo 5:}{38}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Discusi\IeC {\'o}n de resultados.}{38}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusiones}{39}{chapter.7}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{39}{chapter.7}
+\contentsline {chapter}{\numberline {A}Ejemplo de ap\IeC {\'e}ndice o anexo}{41}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Sub t\IeC {\'\i }tulo primer ap\IeC {\'e}ndice o anexo}{41}{section.Alph1.1}
+\contentsline {subsection}{\numberline {A.1.1}Sub secci\IeC {\'o}n del primer ap\IeC {\'e}ndice o anexo}{41}{subsection.Alph1.1.1}

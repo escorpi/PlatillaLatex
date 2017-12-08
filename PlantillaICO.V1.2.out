@@ -1,0 +1,64 @@
+\BOOKMARK [0][]{chapter.1}{1 INTRODUCCI\323N}{}% 1
+\BOOKMARK [1][]{section.1.1}{1.1 Antecedentes}{chapter.1}% 2
+\BOOKMARK [1][]{section.1.2}{1.2 An\341lisis del problema}{chapter.1}% 3
+\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 \301rbol de problema}{section.1.2}% 4
+\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Descripci\363n del Problema}{section.1.2}% 5
+\BOOKMARK [1][]{section.1.3}{1.3 Propuesta de soluci\363n}{chapter.1}% 6
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 \301rbol de medios y fines}{section.1.3}% 7
+\BOOKMARK [1][]{section.1.4}{1.4 Objetivo general}{chapter.1}% 8
+\BOOKMARK [1][]{section.1.5}{1.5 Objetivos espec\355ficos}{chapter.1}% 9
+\BOOKMARK [1][]{section.1.6}{1.6 Justificaci\363n}{chapter.1}% 10
+\BOOKMARK [1][]{section.1.7}{1.7 Alcance}{chapter.1}% 11
+\BOOKMARK [0][]{chapter.2}{2 DOM\323TICA}{}% 12
+\BOOKMARK [1][]{section.2.1}{2.1 Introducci\363n}{chapter.2}% 13
+\BOOKMARK [1][]{section.2.2}{2.2 Aspectos principales}{chapter.2}% 14
+\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 En el \341mbito del ahorro energ\351tico}{section.2.2}% 15
+\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 En el \341mbito del nivel de confort}{section.2.2}% 16
+\BOOKMARK [2][]{subsection.2.2.3}{2.2.3 En el \341mbito de la protecci\363n patrimonial \(seguridad\)}{section.2.2}% 17
+\BOOKMARK [2][]{subsection.2.2.4}{2.2.4 En el \341mbito de las comunicaciones}{section.2.2}% 18
+\BOOKMARK [1][]{section.2.3}{2.3 Estructura de una Instalaci\363n Dom\363tica}{chapter.2}% 19
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Actuaci\363n los Sistemas de Dom\363tica}{section.2.3}% 20
+\BOOKMARK [1][]{section.2.4}{2.4 Arquitectura de un Sistema de Dom\363tica }{chapter.2}% 21
+\BOOKMARK [1][]{section.2.5}{2.5 Medios de Transmisi\363n / Bus}{chapter.2}% 22
+\BOOKMARK [1][]{section.2.6}{2.6 Sistemas Dom\363ticos}{chapter.2}% 23
+\BOOKMARK [2][]{subsection.2.6.1}{2.6.1 \040Los Protocolos de Dom\363tica}{section.2.6}% 24
+\BOOKMARK [2][]{subsection.2.6.2}{2.6.2 Tecnolog\355as y est\341ndares}{section.2.6}% 25
+\BOOKMARK [2][]{subsection.2.6.3}{2.6.3 Funcionamiento De Un Sistema Dom\363tico}{section.2.6}% 26
+\BOOKMARK [0][]{chapter.3}{3 ARDUINO Y NODEJS}{}% 27
+\BOOKMARK [1][]{section.3.1}{3.1 Introducci\363n}{chapter.3}% 28
+\BOOKMARK [1][]{section.3.2}{3.2 Programar un Arduino}{chapter.3}% 29
+\BOOKMARK [1][]{section.3.3}{3.3 NodeJS}{chapter.3}% 30
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Gestor De Paquetes }{section.3.3}% 31
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Marcos de Desarrollo}{section.3.3}% 32
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Componentes para comunicaci\363n en tiempo real}{section.3.3}% 33
+\BOOKMARK [1][]{section.3.4}{3.4 Comunicaci\363n serial}{chapter.3}% 34
+\BOOKMARK [0][]{chapter.4}{4 VIVIENDA UNIFAMILIAR}{}% 35
+\BOOKMARK [1][]{section.4.1}{4.1 Introducci\363n}{chapter.4}% 36
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Familia}{section.4.1}% 37
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Vivienda y Hogar}{section.4.1}% 38
+\BOOKMARK [1][]{section.4.2}{4.2 Definici\363n}{chapter.4}% 39
+\BOOKMARK [1][]{section.4.3}{4.3 Tipos de viviendas}{chapter.4}% 40
+\BOOKMARK [1][]{section.4.4}{4.4 Integrantes de una Vivienda Unifamiliar}{chapter.4}% 41
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Roles de los Integrantes}{section.4.4}% 42
+\BOOKMARK [1][]{section.4.5}{4.5 Recursos de una vivienda}{chapter.4}% 43
+\BOOKMARK [0][]{chapter.5}{5 DESARROLLO DEL TRABAJO}{}% 44
+\BOOKMARK [1][]{section.5.1}{5.1 Introducci\363n }{chapter.5}% 45
+\BOOKMARK [1][]{section.5.2}{5.2 \040Proceso de desarrollo de la metodolog\355a}{chapter.5}% 46
+\BOOKMARK [1][]{section.5.3}{5.3 Sensores y Armado del Prototipo}{chapter.5}% 47
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 An\341lisis}{section.5.3}% 48
+\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Dise\361o}{section.5.3}% 49
+\BOOKMARK [2][]{subsection.5.3.3}{5.3.3 Codificaci\363n}{section.5.3}% 50
+\BOOKMARK [2][]{subsection.5.3.4}{5.3.4 Pruebas}{section.5.3}% 51
+\BOOKMARK [1][]{section.5.4}{5.4 Montar servidor NodeJS y Establecer Comunicaciones}{chapter.5}% 52
+\BOOKMARK [2][]{subsection.5.4.1}{5.4.1 An\341lisis}{section.5.4}% 53
+\BOOKMARK [2][]{subsection.5.4.2}{5.4.2 Dise\361o}{section.5.4}% 54
+\BOOKMARK [2][]{subsection.5.4.3}{5.4.3 Codificaci\363n}{section.5.4}% 55
+\BOOKMARK [0][]{chapter.6}{6 Resultados.}{}% 56
+\BOOKMARK [1][]{section.6.1}{6.1 Ejemplo de titulo 2.}{chapter.6}% 57
+\BOOKMARK [2][]{subsection.6.1.1}{6.1.1 Ejemplo de titulo 3.}{section.6.1}% 58
+\BOOKMARK [1][]{section.6.2}{6.2 Discusi\363n de resultados.}{chapter.6}% 59
+\BOOKMARK [0][]{chapter.7}{7 Conclusiones}{}% 60
+\BOOKMARK [0][]{chapter.7}{Bibliograf\355a}{}% 61
+\BOOKMARK [0][]{appendix.Alph1}{A Ejemplo de ap\351ndice o anexo}{}% 62
+\BOOKMARK [1][]{section.Alph1.1}{A.1 Sub t\355tulo primer ap\351ndice o anexo}{appendix.Alph1}% 63
+\BOOKMARK [2][]{subsection.Alph1.1.1}{A.1.1 Sub secci\363n del primer ap\351ndice o anexo}{section.Alph1.1}% 64
