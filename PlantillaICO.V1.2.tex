@@ -800,7 +800,7 @@ Para la realización de esta iteración se vio necesario seguir las siguientes a
 %		\end{table}
 	\begin{table}[H]
 			\begin{center} % tabla centrada en el texto
-				\begin{tabular} {||l | c | p{8cm}||}
+				\begin{tabular} {||l | c | p{9cm}||}
 					\hline 
 					\hline
 					\multicolumn{3}{|c|}{Iteracion II: Servidor}\\
@@ -848,16 +848,110 @@ El diseño para una infraestructura de aplicaciones web de NodeJS se realiza med
 
 	\subsection{Codificación}
 	Los módulos principales para la comunicación entre el Arduino y el servidor, como también el servidor y los usuarios finales mediante la plataforma web  se requiere de estos dos módulos: serialport y socket.io. Para esto se instala el módulo utilizando el gestor de paquetes de Nodejs 
-
-
+%\lstdefinestyle{mistyle}{
+%frame=shadowbox,
+% rulecolor=\color{arduino}}	
+%\lstset{style=mistyle}	
+		\begin{lstlisting}[language=bash]
+			$ npm install serialport
+			$ npm install socket.io
+		\end{lstlisting}
+Siguiendo en el archivo JavaScript  app.js se añade el código para integrar la comunicación serial con la placa Arduino.
+		\begin{lstlisting}[language=Arduino]
+			var SerialPort = require("serialport").SerialPort;
+			var socketio = require('socket.io').listen(4000);
+		\end{lstlisting}
+		Se inicializa la configuración para  el puerto serial con los  valores: nombre del puerto que en caso de la Raspberry es /dev/ttyACM0, para sistemas operativos Windows  son los  puertos COM. También el baudrate, la cual debe de ser igual que la configuración del Arduino a 115200, son los valores necesarios para establecer la comunicación entre el servidor y el Arduino.
+		\begin{lstlisting}[language=Arduino]
+			var SerialPort = require("serialport").SerialPort;
+			var socketio = require('socket.io').listen(4000);//comunicacion Serial- Configuracion de puertos 
+var serialPort;
+var portName = '/dev/ttyACM0';//dev/ttyAMA0
+function serialListener()
+{
+    var receivedData = "";
+    serialPort = new SerialPort(portName, {
+        baudrate: 115200,
+        // defaults for Arduino serial communication
+         dataBits: 8,
+         parity: 'none',
+         stopBits: 1,
+         flowControl: false
+    });}
+		\end{lstlisting}	
+Para recibir los valores enviados por el Arduino, se realiza con el siguiente método:
+		\begin{lstlisting}[language=Arduino]
+			serialPort.on("open", function () {
+        serialPort.on('data', function(data) {
+      });
+    });
+		\end{lstlisting}	
+Para enviar de acciones a la placa Arduino por comunicación serial:
+		\begin{lstlisting}[language=Arduino]
+			serialPort.write('a1');
+		\end{lstlisting}	
+		\subsection{Pruebas}
+		Se realizaron las pruebas de los sensores para  poder recolectar los datos y  enviarlos por comunicación serial. A la vez recibir instrucciones para activar los actuadores.
+		
+		
 		\begin{figure}[ht]
 			\centering
-			\includegraphics[scale=0.5]{imagenes/ASTM_C39_image1.jpg}
-			\caption{Probeta hormigón (Autor, año)}
-			\label{probetaHormigon} 
+			\includegraphics[scale=0.44]{imagenes/start_serever.png}
+			\caption{Servidor en funcionamiento.}
+			 Fuente: Elaboracíon Propia.
+			\label{servidorStart} 
 			% Label: es para realizar referencias cruzadas, 
 			% notar que se escribe todo junto y sin acentos.
 		\end{figure}
+		\section{Control y monitoreo Web}
+		Es la etapa final en la cual los módulos 1 y 2 se integran de manera  que los usuarios interactúen con el sistema, realizando acciones para el encendido/apagado de luces, visualizar los datos de los sensores, visualizar las cámaras de seguridad y tener graficas del comportamiento de la temperatura dentro de la vivienda.
+		
+		\subsection{Análisis}
+		Se realiza la planificación de las tareas de este módulo  como la recolección de requerimientos y generar plan de trabajo.
+		\begin{table}[H]
+			\begin{center} % tabla centrada en el texto
+				\begin{tabular} {||l | c | p{8cm}||}
+					\hline 
+					\hline
+					\multicolumn{3}{|c|}{Iteración III: Monitoreo-Frontend}\\
+					\hline
+					\hline 
+					 Actividad & Prioridad & Descripcion \\   
+					\hline
+					\hline
+					Preparación & 1 & Diseño de  mockups. \\  
+					\hline
+					Control encendido/apagado & 1 &Acciones de encendido/apagado desde la web.\\
+					\hline
+					Comunicación con el servidor & 1 & Usar sockects con el servidor. \\
+					\hline
+					Cámaras de vigilancia & 2 & Vistas para las cámaras.\\
+					\hline
+					Monitoreo	& 1 & Vistas de los datos de los sensores.\\
+					\hline
+					Grafica & 3 & representacion  de datos en grafica.\\
+					\hline
+					Simulacion de prescencia & 2 & Acciones programadas de encendido/apagado durante el dia y  la noche.\\
+					\hline
+				\end{tabular}			
+			\caption{Planificación de tareas tercer módulo (Elaboración Propia).} 
+			\label{tarea1}
+			\end{center}
+		\end{table}		
+	\subsection{Diseño}
+	Se realiza el diseño mediante uso de mockups, para poder tener una  interpretación más  certera. La primera ventana donde se muestra los valores de los sensores de temperatura, humedad y la concentración de gas. La segunda ventana para las acciones de encendido y apagado de las luces, en la tercera ventana una gráfica del comportamiento de la temperatura y la última ventana la sección de vigilancia mediante cámaras.	
+		\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{imagenes/mockup.png}
+		\caption{Diseño de las vistas. }
+		Fuente: Elaboración Propia
+		\label{mockup} 
+		\end{figure}		
+	\subsection{Codificación}
+	El archivo principal para este módulo es “index.jade”. La  cual forma parte de la estructura de un proyecto generado por express-generator, para poder apreciar  de mejor manera  ver el código completo en anexos. 
+	
+También se configura los clientes para secreteo, lo cual permite que los cambios de lectura  de los sensores sea en tiempo real, como también las acciones del encendido/apagado de luces sean visibles.
+
 
 	La Figura \ref{probetaHormigon} Muestra ... (Explicar las figuras. Notar que la figura fue
 	citada con referencia cruzada y la numeración es automática) 
